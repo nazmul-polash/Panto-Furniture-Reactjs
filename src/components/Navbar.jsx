@@ -22,7 +22,7 @@ const NavItems = ({handleMenuToggle}) => {
                   className={({ isActive }) =>
                      isActive
                         ? "text-orange-400 font-bold"
-                        : "text-gray-700 hover:text-orange-500"
+                        : " hover:text-orange-400"
                   }
                >
                   {item.label}
@@ -40,7 +40,7 @@ const Navbar = () => {
    };
 
    return (
-      <header className="bg-white shadow-md">
+      <header className={`fixed top-0 left-0 right-0 z-50 transition duration-300 ease-in-out text-white`}>
          <nav className="container max-w-screen-2xl mx-auto flex justify-between align-center py-6 px-4">
             <div>
                <Link to="/">Logo</Link>
