@@ -5,8 +5,7 @@ import { FaSearch } from "react-icons/fa";
 const Hero = () => {
    return (
       <section
-         className="h-screen relative bg-cover bg-center
-          text-white"
+         className="h-screen relative bg-cover bg-center  text-white"
          style={{ backgroundImage: `url(${heroImage})` }}
       >
          <div className=" md:pt-36 pt-20 px-2 text-center space-y-6 md:w-1/2 mx-auto">
@@ -29,8 +28,6 @@ const Hero = () => {
             </div>
          </div>
          <div className="absolute inset-x-0 bottom-0 h-3/4 -md-2 bg-gradient-to-t from-white via-transparent to-transparent blur-sm"></div>
-
-         
       </section>
    );
 };
