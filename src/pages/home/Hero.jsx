@@ -1,6 +1,7 @@
 import react from "react";
 import heroImage from "../../assets/banner.png";
 import { FaSearch } from "react-icons/fa";
+import TooltipButton from "../../components/TooltipButton";
 
 const Hero = () => {
    return (
@@ -27,7 +28,20 @@ const Hero = () => {
                </div>
             </div>
          </div>
+         
          <div className="absolute inset-x-0 bottom-0 h-3/4 -md-2 bg-gradient-to-t from-white via-transparent to-transparent blur-sm"></div>
+
+         {/* hover tool trip */}
+
+         <div className=" hidden xl:block absolute md:bottom-40 md:left-10 lg:bottom-30 lg:left-20">
+            <TooltipButton position="bottom" />
+         </div>
+         <div className=" hidden xl:block absolute md:bottom-52 md:left-96 lg:bottom-35 lg:left-70">
+            <TooltipButton position="bottom" />
+         </div>
+         <div className=" hidden xl:block absolute bottom-25 right-[665px]">
+            <TooltipButton position="bottom" />
+         </div>
       </section>
    );
 };
