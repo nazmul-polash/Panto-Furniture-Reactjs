@@ -1,13 +1,18 @@
 import React from "react";
+import heroImage from "../../assets/banner.png";
+import Product from "./Product";
 
 const Shop = () => {
    return (
-      <div>
-         <h1>Shop Page</h1>
-         <p>Explore our wide range of furniture products!</p>
-         <p>We offer a variety of styles and designs to suit your needs.</p>
-         <p>Check out our latest collections and find the perfect pieces for your home.</p>
-      </div>
+      <section className="min-h-screen ">
+         <div
+            className="w-full h-[400px] bg-cover bg-center flex items-center justify-center text-white"
+            style={{ backgroundImage: `url(${heroImage})` }}
+         >
+            <h1 className="text-4xl font-bold">Shop our products</h1>
+         </div>
+         <Product headLine="Whats your Choice" />
+      </section>
    );
-}  
+};
 export default Shop;
