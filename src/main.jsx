@@ -5,9 +5,9 @@ import "./index.css";
 import App from "./App.jsx";
 import Home from "./pages/home/home.jsx";
 import Furniture from "./pages/furnaiture/Furniture.jsx";
-import About from "./pages/about/about.jsx";
+import About from "./pages/about/About.jsx";
 import Shop from "./pages/shop/shop.jsx";
-import Contact from "./pages/contact/contact.jsx";
+import Contact from "./pages/contact/Contact.jsx";
 
 const router = createBrowserRouter([
    {

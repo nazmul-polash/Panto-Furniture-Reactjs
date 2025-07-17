@@ -31,15 +31,15 @@ const WhyChoose = () => {
                   <Button text="Learn More" />
                </div>
                <div>
-                  <h3 className="text-2xl font-semibold mb-3">
-                     Many Choices
-                  </h3>
+                  <h3 className="text-2xl font-semibold mb-3">Many Choices</h3>
                   <p className="margin-base mb-2">
-                     We provide many unique work space choices so that you can choose the workspace to your liking.
+                     We provide many unique work space choices so that you can
+                     choose the workspace to your liking.
                   </p>
                   <Button text="Learn More" />
                </div>
             </div>
+            
          </section>
       </>
    );
