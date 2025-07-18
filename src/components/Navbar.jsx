@@ -39,6 +39,7 @@ const Navbar = () => {
    const handleMenuToggle = () => {
       setIsMenuOpen((prevState) => !prevState);
    };
+   
 
    useEffect(() => {
       const handleEffect = () => {
